@@ -1,0 +1,52 @@
+/* sidebar */
+
+.sidebar{
+    width: 368px;
+    height: 938px;
+    position: relative;
+    top: 84px;
+    left: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    opacity: 0px;  
+}
+
+.video{
+    display: flex;
+    gap: 12px;
+}
+
+.infos{
+    width: 196px;
+    height: 89px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.infos h3{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.infos p{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #515151;
+}
+
+.channel-name{
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 14.06px;
+    text-align: left;
+    color: #515151;
+}

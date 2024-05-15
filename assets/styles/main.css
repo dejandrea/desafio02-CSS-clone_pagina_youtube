@@ -1,0 +1,133 @@
+/* watching video */
+
+.watching-video{
+    width: 952px;
+    height: 746px;
+    position: relative;
+    top: 84px;
+    left: 75px;
+    opacity: 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.watching-video h2{
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23.44px;
+    text-align: left;
+}
+
+.video-actions{
+    width: 902px;
+    height: 42px;
+    opacity: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 42px;
+}
+
+.video-actions p{
+    color: black;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.channel-infos{
+    width: 160px;
+    height: 42px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 12px;
+}
+
+.channel-infos p{
+    font-weight: 600;
+}
+.channel-infos p span{
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+}
+
+.subscribe-button{
+    width: 159px ;
+    height: 40px;
+    border-radius: 2px 0px 0px 0px;
+    background: #CC0000;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.like{
+    width: 63px;
+    height:24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.dislike{
+    width: 100px;
+    height:24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.share{
+    width: 115px;
+    height:24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.download{
+    width: 95px;
+    height:24px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.watching-video h3{
+    width: 391px;
+    height: 16px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 16.41px;
+    text-align: left;
+
+}
+
+.watching-video .video-description{
+    width: 510px;
+    height: 64px;
+    gap: 0px;
+    opacity: 0px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 16.41px;
+    text-align: left;
+    color: #515151;
+
+}
